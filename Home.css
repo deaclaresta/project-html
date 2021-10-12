@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+#headernavigation{
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+    padding: 10px;
+
+}
+#SignUp{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+#headerimagebackground{
+    background-image: url(assets/robot-girl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#headerimagebackground:hover{
+    background-image: url(assets/offerings2.png);
+
+}
+
+#headertext{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: arial; 
+}
+
+#headertexttext{
+    font-family: arial; 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#achieve{
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.learn{
+    background-image: url(assets/SvgaLearn.png);
+    background-repeat: none;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+.get{
+    background-image: url(assets/teacher-img.png);
+    background-repeat: none;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+.earn{
+    background-image: url(assets/SvgaColorCertificate.png);
+    background-repeat: none;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+.upskill{
+    background-image: url(assets/SvgaCommunity.png);
+    background-repeat: none;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+#isicontent{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    text-align: center;
+    margin: 20px 80px;
+}
+.contenttext{
+    text-align: center;
+    font-weight: bold;
+}
+.contenttexttext{
+    text-align: center;
+}
+#imagecontent{
+    display: flex;
+    justify-content: center;
+}
+#contentbwh{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+#headercontentbwh{
+    margin: 3opx 30px 10px 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+}
+#textcontentbwh{
+    margin: 3opx 30px 10px 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 5px;
+    color: black;
+}
+#imageoffering{
+    width: 170px;
+    height: 170px;
+}
+#content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#contentbwhbwh{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#footer{
+    background-color: grey;
+}

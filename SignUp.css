@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+#headernavigation{
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+    padding: 10px;
+
+}
+#SignUp{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#form{
+    display: flex;
+    
+    justify-content: center;
+}
+#footer{
+    background-color: grey;
+}
